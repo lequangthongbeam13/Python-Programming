@@ -1,0 +1,15 @@
+print ("Program starting.")
+print("Estimate how many minutes you spent on programming...\n")
+A1 = int(input("A1_T1: "))
+A2 = int(input("A1_T2: "))
+A3 = int(input("A1_T3: "))
+A4 = int(input("A1_T4: "))
+A5 = int(input("A1_T5: "))
+A6 = int(input("A1_T6: "))
+A7 = int(input("A1_T7: "))
+Sum = A1 + A2 + A3 + A4 + A5 + A6 + A7
+Avg = ((A1 + A2 + A3 + A4 + A5 + A6 + A7)/7)
+Sen = "\nIn total you spent {0} minutes on programming.\n"\
+    "Average per task was {1} min and same rounded to the nearest integer {2} min.".format(Sum,round(Avg,2),(round((Avg))))
+print (f"{Sen}\n")
+print("Program ending.")
