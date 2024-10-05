@@ -17,6 +17,6 @@ while number > 9:
     number = product
     product = 1
     del list[0:len(str(number))+4]
-print("No more step.")
+print("No more steps.")
 print(f"\nThis program took {persistence} step(s)")
 print("\nProgram ending.")
