@@ -1,14 +1,14 @@
+def frameWord(PWord):
+    print("*" * len(PWord) + "****")
+    print(f"* {PWord} *")
+    print("*" * len(PWord) + "****")
 def main():
     print("Program starting.")
-    Word = input("Insert word: ")
+    Text = str(input("Insert word: "))
     print("")
-    def frameWord(Pword = Word):
-        numofCharsB = "**" + "*" * len(Pword) + "**"
-        print(numofCharsB)
-        print("*", Pword, "*")
-        print(numofCharsB)
-        return None
-    frameWord()
-    print("\nProgram ending.")
+    frameWord(Text)
+    print("")
+    print("Program ending.")
     return None
+
 main()
