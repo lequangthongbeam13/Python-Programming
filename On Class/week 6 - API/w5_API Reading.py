@@ -12,5 +12,3 @@ for entry in data["feeds"]:
 print(f"Movement value: {movement_value}")
 print(f"Temperature value: {temp_value}")
 print(f"At: {time_value}")
-
-
