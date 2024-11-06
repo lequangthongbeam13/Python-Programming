@@ -9,6 +9,6 @@ for entry in data["feeds"]:
     temp_value = entry["field2"]
     time_value = entry["created_at"]
 
-print(f"Movement value: {movement_value}")
-print(f"Temperature value: {temp_value}")
-print(f"At: {time_value}")
+    print(f"Movement value: {movement_value}")
+    print(f"Temperature value: {temp_value}")
+    print(f"At: {time_value}")
